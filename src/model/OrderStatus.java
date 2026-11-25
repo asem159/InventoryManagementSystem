@@ -9,5 +9,8 @@ package model;
  * @author ka
  */
 public enum OrderStatus {
-    
+    PENDING,
+    PROCESSING,
+    COMPLETED,
+    CANCELLED
 }

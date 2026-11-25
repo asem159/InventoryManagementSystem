@@ -55,7 +55,7 @@ public class Order {
         return lines;
     }
 
-    // Getters & Setters لباقي الخصائص
+    // Getters & Setters 
     public int getOrderId() { return orderId; }
     public void setOrderId(int orderId) { this.orderId = orderId; }
 
