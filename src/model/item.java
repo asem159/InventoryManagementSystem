@@ -8,7 +8,7 @@ package model;
  *
  * @author ka
  */
-public class item {
+public class Item {
     private String itemId;
     private String name;
     private String category;
@@ -16,7 +16,7 @@ public class item {
     private int quantity;
     private int reorderLevel;
 
-    public item(String itemId, String name, String category, double price, int quantity, int reorderLevel) {
+    public Item(String itemId, String name, String category, double price, int quantity, int reorderLevel) {
         this.itemId = itemId;
         this.name = name;
         this.category = category;
