@@ -9,7 +9,7 @@ import model.*;
 public class DatabaseManager {
     private static final String URL = "jdbc:mysql://localhost:3306/inventory_db?useSSL=false&serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PASSWORD = "11442006As#"; // اكتب باسورد MySQL هنا
+    private static final String PASSWORD = ""; 
 
     private Connection connection;
 
